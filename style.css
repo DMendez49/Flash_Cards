@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background: black;
+  font-size: 25px;
+  color: #520000;
+  /* background: src="images/Good_Buu.png"; */
+}
+
+.torso {
+  background: url(https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+.lamb{
+  background: url(https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-thumb.jpg);
+}
+
+.cardBox {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 1000px;
+  background: lightslategrey;
+  border: 1px;
+  border-style: solid;
+}
+
+.cardBox .card {
+  position: relative;
+  width: 525px;
+  height: 300px;
+  border-style: solid;
+  border-width: 1px;
+  /* background: # */
+  transform-style: preserve-3d;
+  transition: 1s ease;
+}
+
+
+.cardBox .card .card-front,
+.cardBox .card .card-back {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cardBox .card .card-front {
+  background: lightcyan;
+  display: flex;
+}
+
+.cardBox .card .card-back {
+  background: lightcyan;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.cardBox:hover .card {
+  transform: rotateY(180deg);
+}
+
+.cardBox .card-back  {
+  transform: rotateY(180deg);
+}
+
+.interFace {
+  height: 650px;
+  width: 1000px;
+  background-color: rgba(245, 245, 220, 0.315);
+  color: black;
+  border-style: groove;
+  border-width: 5px;
+}
+
+
+ input {
+   width: 320px;
+   height: 30px;
+   border-style: solid;
+   border-width: 1px;
+   font-family: monospace;
+   font-size: 22px;
+   color: #234f83;
+   text-align: center;
+ }
+
+ button {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color: #f9f9f9;
+	border-radius: 6px;
+	border:1px solid #160101;
+	display: inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 3px 0px lightgray;
+  width: 250px;
+  cursor: pointer;
+ }
+
+ button:hover {
+  color: white;
+  background: rgba(248, 242, 248, 0.384);
+ }
+
+/* update */
+ /* .abutton
+ button:hover{
+  color: white;
+  background: greenyellow;
+ } */
+
+center {
+
+}
+
+.user{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.DomKennedy{
+  padding: 4px;
+  border-style: solid;
+  border-width: 1px rgba(104, 96, 96, 0.61);
+  margin: 10px;
+  font-family: monospace;
+  font-size: 20px;
+  background: rgba(119, 136, 153, 0.616);
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.edit{
+  margin-right: 4px;
+}
+
+.red {
+  border: 2px dotted red;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: whitesmoke;
+  background: rgba(119, 136, 153, 0.616);
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.h1{
+  font-family: cursive;
+  font-size: 60px;
+}
+ 
+
+
